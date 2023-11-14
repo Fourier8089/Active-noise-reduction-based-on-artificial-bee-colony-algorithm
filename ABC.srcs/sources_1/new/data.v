@@ -18,6 +18,7 @@ module
     input signed [15:0] x,d;
     output reg signed [15:0] x1,x2,x3,x4,x5,x6,x7,x8,dn;
 	reg [11:0] cnt;
+	//采样频率为20kHZ，周期为50ms，需要计数2499次
 	always@(posedge clk or negedge reset)begin
 		if(!reset)
 			cnt<=0;

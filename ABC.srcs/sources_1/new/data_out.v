@@ -1,6 +1,5 @@
 module
 	data_out(
-		clk,
 		reset,
 		x1,
 		x2,
@@ -20,12 +19,12 @@ module
 		w8,
 		y
     );
-	input clk,reset;
+	input reset;
 	input signed [15:0] x1,x2,x3,x4,x5,x6,x7,x8;
 	input signed [15:0] w1,w2,w3,w4,w5,w6,w7,w8;
 	reg signed [32:0] y_tmp;
 	output signed [15:0] y;
-	always@(posedge clk or negedge reset)begin
+	always@(*)begin
 		if(!reset)
 			y_tmp<=0;
 		else begin

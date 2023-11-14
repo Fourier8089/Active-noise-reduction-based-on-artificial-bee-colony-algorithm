@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ABC.srcs/sources_1/new/TOP.v" \
+"../../../../ABC.srcs/sources_1/new/compare.v" \
+"../../../../ABC.srcs/sources_1/new/data.v" \
+"../../../../ABC.srcs/sources_1/new/data_out.v" \
+"../../../../ABC.srcs/sources_1/new/error.v" \
+"../../../../ABC.srcs/sources_1/new/gambling.v" \
+"../../../../ABC.srcs/sources_1/new/random.v" \
+"../../../../ABC.srcs/sources_1/new/update.v" \
+"../../../../ABC.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

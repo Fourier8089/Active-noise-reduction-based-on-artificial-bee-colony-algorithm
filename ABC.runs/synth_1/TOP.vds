@@ -1,0 +1,536 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov 13 20:21:41 2023
+# Process ID: 7348
+# Current directory: F:/FPGA/ABC/ABC.runs/synth_1
+# Command line: vivado.exe -log TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+# Log file: F:/FPGA/ABC/ABC.runs/synth_1/TOP.vds
+# Journal file: F:/FPGA/ABC/ABC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TOP.tcl -notrace
+Command: synth_design -top TOP -part xc7a35tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17020 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 362.383 ; gain = 88.898
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TOP' [F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v:2]
+INFO: [Synth 8-6157] synthesizing module 'data' [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'data' (1#1) [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:2]
+INFO: [Synth 8-6157] synthesizing module 'compare' [F:/FPGA/ABC/ABC.srcs/sources_1/new/compare.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'compare' (2#1) [F:/FPGA/ABC/ABC.srcs/sources_1/new/compare.v:2]
+INFO: [Synth 8-6157] synthesizing module 'data_out' [F:/FPGA/ABC/ABC.srcs/sources_1/new/data_out.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'data_out' (3#1) [F:/FPGA/ABC/ABC.srcs/sources_1/new/data_out.v:2]
+INFO: [Synth 8-6157] synthesizing module 'error' [F:/FPGA/ABC/ABC.srcs/sources_1/new/error.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'error' (4#1) [F:/FPGA/ABC/ABC.srcs/sources_1/new/error.v:2]
+INFO: [Synth 8-6157] synthesizing module 'gambling' [F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'gambling' (5#1) [F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v:2]
+INFO: [Synth 8-6157] synthesizing module 'random' [F:/FPGA/ABC/ABC.srcs/sources_1/new/random.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'random' (6#1) [F:/FPGA/ABC/ABC.srcs/sources_1/new/random.v:2]
+INFO: [Synth 8-6157] synthesizing module 'update' [F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v:2]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'update' (7#1) [F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'TOP' (8#1) [F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v:2]
+WARNING: [Synth 8-3331] design update has unconnected port k[15]
+WARNING: [Synth 8-3331] design update has unconnected port k[14]
+WARNING: [Synth 8-3331] design update has unconnected port k[13]
+WARNING: [Synth 8-3331] design update has unconnected port k[12]
+WARNING: [Synth 8-3331] design update has unconnected port k[11]
+WARNING: [Synth 8-3331] design update has unconnected port k[10]
+WARNING: [Synth 8-3331] design update has unconnected port k[9]
+WARNING: [Synth 8-3331] design update has unconnected port k[8]
+WARNING: [Synth 8-3331] design update has unconnected port k[7]
+WARNING: [Synth 8-3331] design update has unconnected port k[6]
+WARNING: [Synth 8-3331] design update has unconnected port k[5]
+WARNING: [Synth 8-3331] design update has unconnected port k[4]
+WARNING: [Synth 8-3331] design gambling has unconnected port reset
+WARNING: [Synth 8-3331] design compare has unconnected port en0[15]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[14]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[13]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[12]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[11]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[10]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[9]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[8]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[7]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[6]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[5]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[4]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[3]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[2]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[1]
+WARNING: [Synth 8-3331] design compare has unconnected port en0[0]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[15]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[14]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[13]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[12]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[11]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[10]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[9]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[8]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[7]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[6]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[5]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[4]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[3]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[2]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[1]
+WARNING: [Synth 8-3331] design compare has unconnected port en1[0]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[15]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[14]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[13]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[12]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[11]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[10]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[9]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[8]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[7]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[6]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[5]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[4]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[3]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[2]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[1]
+WARNING: [Synth 8-3331] design compare has unconnected port en2[0]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[15]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[14]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[13]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[12]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[11]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[10]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[9]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[8]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[7]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[6]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[5]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[4]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[3]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[2]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[1]
+WARNING: [Synth 8-3331] design compare has unconnected port en3[0]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[15]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[14]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[13]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[12]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[11]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[10]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[9]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[8]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[7]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[6]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[5]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[4]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[3]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[2]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[1]
+WARNING: [Synth 8-3331] design compare has unconnected port en4[0]
+WARNING: [Synth 8-3331] design compare has unconnected port en5[15]
+WARNING: [Synth 8-3331] design compare has unconnected port en5[14]
+WARNING: [Synth 8-3331] design compare has unconnected port en5[13]
+WARNING: [Synth 8-3331] design compare has unconnected port en5[12]
+WARNING: [Synth 8-3331] design compare has unconnected port en5[11]
+WARNING: [Synth 8-3331] design compare has unconnected port en5[10]
+WARNING: [Synth 8-3331] design compare has unconnected port en5[9]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 422.746 ; gain = 149.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 422.746 ; gain = 149.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 422.746 ; gain = 149.262
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tfgg484-2
+INFO: [Synth 8-5546] ROM "x1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wnn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wnn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wnn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wnn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Wnn1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "en0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "w1" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'k_reg' [F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v:29]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 446.969 ; gain = 173.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	  10 Input     17 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 2     
+	   3 Input     17 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 35    
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
++---XORs : 
+	   5 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 154   
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 9     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 35    
+	  10 Input      1 Bit        Muxes := 1     
+	  17 Input      1 Bit        Muxes := 31    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module data 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 9     
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module data_out 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+Module error 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+Module gambling 
+Detailed RTL Component Info : 
++---Adders : 
+	  10 Input     17 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 2     
+	   3 Input     17 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 18    
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+Module random 
+Detailed RTL Component Info : 
++---XORs : 
+	   5 Input     16 Bit         XORs := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+Module update 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 16    
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 143   
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 8     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+	  17 Input      1 Bit        Muxes := 31    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "en0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "data_0/x1" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP data_out_/y_tmp1, operation Mode is: A*B.
+DSP Report: operator data_out_/y_tmp1 is absorbed into DSP data_out_/y_tmp1.
+DSP Report: Generating DSP data_out_/y_tmp0, operation Mode is: C+A*B.
+DSP Report: operator data_out_/y_tmp0 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: operator data_out_/y_tmp7 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: Generating DSP data_out_/y_tmp0, operation Mode is: PCIN+A*B.
+DSP Report: operator data_out_/y_tmp0 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: operator data_out_/y_tmp2 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: Generating DSP data_out_/y_tmp0, operation Mode is: PCIN+A*B.
+DSP Report: operator data_out_/y_tmp0 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: operator data_out_/y_tmp3 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: Generating DSP data_out_/y_tmp0, operation Mode is: PCIN+A*B.
+DSP Report: operator data_out_/y_tmp0 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: operator data_out_/y_tmp4 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: Generating DSP data_out_/y_tmp0, operation Mode is: PCIN+A*B.
+DSP Report: operator data_out_/y_tmp0 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: operator data_out_/y_tmp5 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: Generating DSP data_out_/y_tmp0, operation Mode is: PCIN+A*B.
+DSP Report: operator data_out_/y_tmp0 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: operator data_out_/y_tmp6 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: Generating DSP data_out_/y_tmp0, operation Mode is: PCIN+A*B.
+DSP Report: operator data_out_/y_tmp0 is absorbed into DSP data_out_/y_tmp0.
+DSP Report: operator data_out_/y_tmp7 is absorbed into DSP data_out_/y_tmp0.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[12] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[9]' (FDR) to 'random_0/R_reg[12]'
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[10]' (FDR) to 'random_0/R_reg[12]'
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[11]' (FDR) to 'random_0/R_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[5] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[12]' (FDR) to 'random_0/R_reg[2]'
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[2]' (FDR) to 'random_0/R_reg[5]'
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[3]' (FDR) to 'random_0/R_reg[5]'
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[4]' (FDR) to 'random_0/R_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[15] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[5]' (FDR) to 'random_0/R_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[8] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[15]' (FDR) to 'random_0/R_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[1] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[8]' (FDR) to 'random_0/R_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[14] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[1]' (FDR) to 'random_0/R_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[7] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[14]' (FDR) to 'random_0/R_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[0] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[7]' (FDR) to 'random_0/R_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[13] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[0]' (FDR) to 'random_0/R_reg[13]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\random_0/seed_reg[6] )
+INFO: [Synth 8-3886] merging instance 'random_0/R_reg[13]' (FDR) to 'random_0/R_reg[6]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|data_out    | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|data_out    | C+A*B       | 16     | 16     | 30     | -      | 30     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|data_out    | PCIN+A*B    | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|data_out    | PCIN+A*B    | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|data_out    | PCIN+A*B    | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|data_out    | PCIN+A*B    | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|data_out    | PCIN+A*B    | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|data_out    | PCIN+A*B    | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:39]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:32]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:38]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:36]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:35]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:34]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:33]
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (gambling_0/k_reg[3]) is unused and will be removed from module TOP.
+WARNING: [Synth 8-3332] Sequential element (gambling_0/k_reg[2]) is unused and will be removed from module TOP.
+WARNING: [Synth 8-3332] Sequential element (gambling_0/k_reg[1]) is unused and will be removed from module TOP.
+WARNING: [Synth 8-3332] Sequential element (gambling_0/k_reg[0]) is unused and will be removed from module TOP.
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:39]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:32]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:38]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:37]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:36]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:35]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:34]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v:33]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |     3|
+|3     |DSP48E1 |     8|
+|4     |LUT1    |     3|
+|5     |LUT2    |    27|
+|6     |LUT4    |     2|
+|7     |LUT6    |     1|
+|8     |FDCE    |   140|
+|9     |IBUF    |    18|
+|10    |OBUF    |    16|
++------+--------+------+
+
+Report Instance Areas: 
++------+------------+---------+------+
+|      |Instance    |Module   |Cells |
++------+------------+---------+------+
+|1     |top         |         |   219|
+|2     |  data_0    |data     |   160|
+|3     |  data_out_ |data_out |    24|
++------+------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 271 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 653.586 ; gain = 380.102
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 661.566 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+96 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 661.566 ; gain = 388.082
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 661.566 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/FPGA/ABC/ABC.runs/synth_1/TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 13 20:21:54 2023...

@@ -1,0 +1,339 @@
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {tb_simulate.do}
+# vsim -do "do {tb_simulate.do}" -l simulate.log 
+# Start time: 09:36:40 on Nov 14,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.tb(fast)
+# Loading work.TOP(fast)
+# Loading work.data(fast)
+# Loading work.compare(fast)
+# Loading work.data_out(fast)
+# Loading work.error(fast)
+# Loading work.gambling(fast)
+# Loading work.random(fast)
+# Loading work.update(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-PLI-3691) ../../../../ABC.srcs/sim_1/new/tb.v(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: ../../../../ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-PLI-3691) ../../../../ABC.srcs/sim_1/new/tb.v(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: ../../../../ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-3015) ../../../../ABC.srcs/sources_1/new/TOP.v(97): [PCDPC] - Port size (16) does not match connection size (4) for port 'k'. The port definition is at: ../../../../ABC.srcs/sources_1/new/update.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/TOP_0/update_0 File: ../../../../ABC.srcs/sources_1/new/update.v
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint sim:/tb/TOP_0/update_0/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf F:/FPGA/ABC/ABC.sim/sim_1/behav/modelsim/wave.do
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.tb(fast)
+# Loading work.TOP(fast)
+# Loading work.data(fast)
+# Loading work.compare(fast)
+# Loading work.data_out(fast)
+# Loading work.error(fast)
+# Loading work.gambling(fast)
+# Loading work.random(fast)
+# Loading work.update(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-PLI-3691) ../../../../ABC.srcs/sim_1/new/tb.v(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: ../../../../ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-PLI-3691) ../../../../ABC.srcs/sim_1/new/tb.v(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: ../../../../ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-3015) ../../../../ABC.srcs/sources_1/new/TOP.v(97): [PCDPC] - Port size (16) does not match connection size (4) for port 'k'. The port definition is at: ../../../../ABC.srcs/sources_1/new/update.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/TOP_0/update_0 File: ../../../../ABC.srcs/sources_1/new/update.v
+run -all
+add wave -position insertpoint  \
+sim:/tb/TOP_0/update_0/Wn1 \
+sim:/tb/TOP_0/update_0/Wn2 \
+sim:/tb/TOP_0/update_0/Wn3 \
+sim:/tb/TOP_0/update_0/Wn4 \
+sim:/tb/TOP_0/update_0/Wn5 \
+sim:/tb/TOP_0/update_0/Wn6 \
+sim:/tb/TOP_0/update_0/Wn7 \
+sim:/tb/TOP_0/update_0/Wn8 \
+sim:/tb/TOP_0/update_0/Wnn1 \
+sim:/tb/TOP_0/update_0/Wnn2 \
+sim:/tb/TOP_0/update_0/Wnn3 \
+sim:/tb/TOP_0/update_0/Wnn4 \
+sim:/tb/TOP_0/update_0/Wnn5 \
+sim:/tb/TOP_0/update_0/Wnn6 \
+sim:/tb/TOP_0/update_0/Wnn7 \
+sim:/tb/TOP_0/update_0/Wnn8
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# 
+# Loading work.tb(fast)
+# Loading work.TOP(fast)
+# Loading work.data(fast)
+# Loading work.compare(fast)
+# Loading work.data_out(fast)
+# Loading work.error(fast)
+# Loading work.gambling(fast)
+# Loading work.random(fast)
+# Loading work.update(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-PLI-3691) ../../../../ABC.srcs/sim_1/new/tb.v(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: ../../../../ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-PLI-3691) ../../../../ABC.srcs/sim_1/new/tb.v(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: ../../../../ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-3015) ../../../../ABC.srcs/sources_1/new/TOP.v(97): [PCDPC] - Port size (16) does not match connection size (4) for port 'k'. The port definition is at: ../../../../ABC.srcs/sources_1/new/update.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/TOP_0/update_0 File: ../../../../ABC.srcs/sources_1/new/update.v
+run -all
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v 
+# -- Compiling module update
+# 
+# Top level modules:
+# 	update
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/random.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/random.v 
+# -- Compiling module random
+# 
+# Top level modules:
+# 	random
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.sim/sim_1/behav/modelsim/glbl.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.sim/sim_1/behav/modelsim/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v 
+# -- Compiling module gambling
+# 
+# Top level modules:
+# 	gambling
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/error.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/error.v 
+# -- Compiling module error
+# 
+# Top level modules:
+# 	error
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/data_out.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/data_out.v 
+# -- Compiling module data_out
+# 
+# Top level modules:
+# 	data_out
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v 
+# -- Compiling module data
+# 
+# Top level modules:
+# 	data
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/compare.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:50:17 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/compare.v 
+# -- Compiling module compare
+# 
+# Top level modules:
+# 	compare
+# End time: 09:50:17 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb(fast)
+# Loading work.TOP(fast)
+# Loading work.data(fast)
+# Loading work.compare(fast)
+# Loading work.data_out(fast)
+# Loading work.error(fast)
+# Loading work.gambling(fast)
+# Loading work.random(fast)
+# Loading work.update(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-PLI-3691) F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-PLI-3691) F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-3015) F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v(97): [PCDPC] - Port size (16) does not match connection size (4) for port 'k'. The port definition is at: F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/TOP_0/update_0 File: F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v
+run -all
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v 
+# -- Compiling module update
+# 
+# Top level modules:
+# 	update
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/random.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/random.v 
+# -- Compiling module random
+# 
+# Top level modules:
+# 	random
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.sim/sim_1/behav/modelsim/glbl.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.sim/sim_1/behav/modelsim/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v 
+# -- Compiling module gambling
+# 
+# Top level modules:
+# 	gambling
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/error.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/error.v 
+# -- Compiling module error
+# 
+# Top level modules:
+# 	error
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/data_out.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/data_out.v 
+# -- Compiling module data_out
+# 
+# Top level modules:
+# 	data_out
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v 
+# -- Compiling module data
+# 
+# Top level modules:
+# 	data
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/compare.v
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 09:53:15 on Nov 14,2023
+# vlog -reportprogress 300 -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact F:/FPGA/ABC/ABC.srcs/sources_1/new/compare.v 
+# -- Compiling module compare
+# 
+# Top level modules:
+# 	compare
+# End time: 09:53:15 on Nov 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb(fast)
+# Loading work.TOP(fast)
+# Loading work.data(fast)
+# Loading work.compare(fast)
+# Loading work.data_out(fast)
+# Loading work.error(fast)
+# Loading work.gambling(fast)
+# Loading work.random(fast)
+# Loading work.update(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-PLI-3691) F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v(32): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-PLI-3691) F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v(33): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v
+# ** Warning: (vsim-3015) F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v(97): [PCDPC] - Port size (16) does not match connection size (4) for port 'k'. The port definition is at: F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/TOP_0/update_0 File: F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v
+run -all

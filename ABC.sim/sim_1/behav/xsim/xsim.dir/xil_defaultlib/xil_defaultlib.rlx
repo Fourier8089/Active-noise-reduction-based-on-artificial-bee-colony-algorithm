@@ -1,0 +1,14 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/FPGA/ABC/ABC.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v,1699879047,verilog,,,,tb,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sources_1/new/TOP.v,1699879024,verilog,,F:/FPGA/ABC/ABC.srcs/sources_1/new/compare.v,,TOP,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sources_1/new/compare.v,1699875969,verilog,,F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v,,compare,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sources_1/new/data.v,1699875589,verilog,,F:/FPGA/ABC/ABC.srcs/sources_1/new/data_out.v,,data,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sources_1/new/data_out.v,1699875969,verilog,,F:/FPGA/ABC/ABC.srcs/sources_1/new/error.v,,data_out,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sources_1/new/error.v,1699603140,verilog,,F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v,,error,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sources_1/new/gambling.v,1699878020,verilog,,F:/FPGA/ABC/ABC.srcs/sources_1/new/random.v,,gambling,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sources_1/new/random.v,1699879203,verilog,,F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v,,random,,,,,,,,
+F:/FPGA/ABC/ABC.srcs/sources_1/new/update.v,1699879844,verilog,,F:/FPGA/ABC/ABC.srcs/sim_1/new/tb.v,,update,,,,,,,,

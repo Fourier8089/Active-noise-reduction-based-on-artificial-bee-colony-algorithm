@@ -5,7 +5,7 @@ module
 		R
     );
 	input clk,reset;
-	reg signed [15:0] seed;
+	reg signed [15:0] seed=15;
 	output reg signed [15:0] R;
 	always @(posedge clk) begin
 		if(!reset)
